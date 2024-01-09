@@ -34,3 +34,11 @@ class Katze(Tier):
         super().__init__(name, alter, geschlecht)
         self.klang = "meow"
         self.lieblingsessen = lieblingsessen
+
+    # Geben Sie den Namen und das Lieblingsfutter des Tieres aus
+    def printLieblingsessen(self):
+        print(f"\n{self.name}'s lieblingsessen ist {self.lieblingsessen}\n")
+
+    # Geben Sie den Lärm aus, den das Tier normalerweise macht
+    def printKlang(self):
+        print(f"\n{self.name} macht den Ton {self.klang}")
