@@ -50,4 +50,3 @@ class Hund(Tier):
         super().__init__(name, alter, geschlecht)
         self.klang = "woof"
         self.lieblingsessen = lieblingsessen
-
