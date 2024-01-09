@@ -17,3 +17,5 @@ class Hase(Tier):
         self.klang = "squeek"
         self.lieblingsessen = lieblingsessen
 
+    def printLieblingsessen(self):
+        print(f"\n{self.name}'s lieblingsessen ist {self.lieblingsessen}\n\n")
