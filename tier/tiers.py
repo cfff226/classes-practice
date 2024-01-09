@@ -42,3 +42,11 @@ class Katze(Tier):
     # Geben Sie den Lärm aus, den das Tier normalerweise macht
     def printKlang(self):
         print(f"\n{self.name} macht den Ton {self.klang}")
+
+
+# Klasse für der Hunde
+class Hund(Tier):
+    def __init__(self):
+        super().__init__(name)
+        self.klang = "woof"
+
