@@ -46,7 +46,8 @@ class Katze(Tier):
 
 # Klasse für der Hunde
 class Hund(Tier):
-    def __init__(self):
-        super().__init__(name)
+    def __init__(self, name, alter, geschlecht, lieblingsessen):
+        super().__init__(name, alter, geschlecht)
         self.klang = "woof"
+        self.lieblingsessen = lieblingsessen
 
